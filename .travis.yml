@@ -2,8 +2,8 @@ sudo: required
 services: 
   - docker
 
-before-install:
+before_install: 
   - docker build -t babaolibabo/docker-web -f Dockerfile.dev .
 
-script:
+script: 
   - docker run babaolibabo/docker-web npm run test -- --coverage
