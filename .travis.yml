@@ -13,6 +13,6 @@ deploy:
   skip_cleanup: true
   keyfile: client-secret.json
   project: baboli-deneme
-  default: ture
+  default: true
   on: 
     branch: master
